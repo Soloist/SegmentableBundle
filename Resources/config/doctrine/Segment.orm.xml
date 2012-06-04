@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping">
+
+    <entity name="Soloist\Bundle\SegmentableBundle\Entity\Segment" table="soloist_segment">
+        <id name="id" type="integer" column="id" >
+            <generator strategy="AUTO" />
+        </id>
+        <field name="hostname" type="string" column="hostname" />
+    </entity>
+
+</doctrine-mapping>
